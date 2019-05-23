@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Brian Adams <wreality@gmail.com>
 
-RUN apt-get update ; apt-get install -y wget xz-utils python
+RUN apt-get update ; apt-get install -y wget xz-utils python git
 
 RUN mkdir /opt/arduino; \
     cd /opt/arduino; \
